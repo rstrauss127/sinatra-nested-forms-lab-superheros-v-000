@@ -4,5 +4,7 @@
 <h2>Team Motto <%= team[:motto] %></h2>
 
 <% team[:member].each do |member| %>
-  <p>Name <%= member[:name] %>
+  <p>Name <%= member[:name] %></p>
+  <p>Power <%= member[:power] %></p>
+  <p>Bio <%= member[:bio] %></p>    
     <% end%>
