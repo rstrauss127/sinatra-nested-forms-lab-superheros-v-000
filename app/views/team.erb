@@ -3,9 +3,8 @@
 <h1><%= team[:name] %> </h1>
 <h2>Team Motto <%= team[:motto] %></h2>
 
-<% team[:member].each do |member| %>
-  <p>Hero Name: <%= member[:name] %></p>
-  <p>Hero Power: <%= member[:power] %></p>
-  <p>Bio <%= member[:bio] %></p>
-    <% end%>
-<%= team[:member][0][:name] %>
+<div class="member1">
+  <p>Hero Name: <%= team[:member][0][:name] %></p>
+  <p>Hero Power: <%= team[:member][0][:power] %></p>
+  <p>Bio <%= team[:member][0][:bio] %></p>
+</div>
